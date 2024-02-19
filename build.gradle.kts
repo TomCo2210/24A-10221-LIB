@@ -3,3 +3,9 @@ plugins {
     id("com.android.application") version "8.2.2" apply false
     id("com.android.library") version "8.2.2" apply false
 }
+
+buildscript {
+    dependencies {
+        classpath("com.github.dcendents:android-maven-gradle-plugin:1.5")
+    }
+}
